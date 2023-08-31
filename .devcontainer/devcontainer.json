@@ -1,0 +1,4 @@
+{
+    "image": "registry.suse.com/bci/dotnet-sdk:7.0",
+    "forwardPorts": [ 3000 ]
+}
