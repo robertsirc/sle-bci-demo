@@ -1,5 +1,11 @@
 {
     "name": "c#-dotnet-sdk-7.0",
     "image": "registry.suse.com/bci/dotnet-sdk:7.0",
-    "forwardPorts": [ 3000 ]
+    "forwardPorts": [ 3000 ],
+    "customizations": {
+        "vscode": {
+          "settings": {},
+          "extensions": ["ms-dotnettools.csharp", "ms-dotnettools.csdevkit", "ms-dotnettools.vscode-dotnet-runtime"]
+        }
+      }
 }
