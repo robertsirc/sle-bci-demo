@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/hello-world.props" />
+</Project>
