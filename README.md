@@ -34,6 +34,41 @@ In this file we need to add the base brackets for json:
 
 ``` json
 {
-    
+
 }
 ```
+
+Few fields we are going to need to add to this json file:
+
+``` json
+{
+    "name": "",
+    "image": "",
+    "forwardPorts": [  ],
+    "customizations": { }
+}
+```
+
+The `devcontainer.json` supports more fields but we need these for this project:
+
+- `name` - name of the devcontainer.
+- `image` - location of the container image.
+- `forwardPorts` - ports that need to beforwarded on from the container.
+- `customizations` - VS Code customization for the devcontainer.
+
+And these are the following values:
+
+``` json
+{
+    "name": "c#-dotnet-sdk-7.0",
+    "image": "registry.suse.com/bci/dotnet-sdk:7.0",
+    "forwardPorts": [ 3000 ],
+    "customizations": {
+        "vscode": {
+          "settings": {},
+          "extensions": ["ms-dotnettools.csharp", "ms-dotnettools.csdevkit", "ms-dotnettools.vscode-dotnet-runtime"]
+        }
+      }
+}
+```
+
