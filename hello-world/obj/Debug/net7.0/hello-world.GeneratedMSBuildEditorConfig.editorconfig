@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hello_world
 build_property.RootNamespace = hello_world
-build_property.ProjectDir = /workspaces/sle-bci-demo/hello-world/
+build_property.ProjectDir = /Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /workspaces/sle-bci-demo/hello-world
+build_property.MSBuildProjectDirectory = /Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world
 build_property._RazorSourceGeneratorDebug = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/Error.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/Index.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/Privacy.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/_ViewImports.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/_ViewStart.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/sle-bci-demo/hello-world/Pages/Shared/_Layout.cshtml]
+[/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nar76hmad1

@@ -72,3 +72,45 @@ And these are the following values:
 }
 ```
 
+## Connecting to the devcontainer
+
+You will need to make sure that [Rancher Desktop](https://rancherdesktop.io/) is up and running. The container run time needs to be `Docker (Moby)`.
+
+In the `VS Code` UI there is a button on the bottom left corner that will let you connect to a new devcontainer.
+
+Once connected in to the devcontainer the terminal prompts will turn red indicating you are working within it. 
+
+## Working within the devcontainer
+
+While in the devcontainer we can work with in the base directory we created earlier, for this demo that was called `sle-bci-demo`. We are going to create an ASP.NET webapp:
+
+``` bash
+dotnet new webapp -n hello-world
+```
+
+We can work with in the devcontainer making code changes. But before we close out we are going to want to do a publish prior to closing the devcontainer:
+
+``` bash
+dotnet publish -c Release
+```
+
+## Disconnecting from the devcontainer
+
+Disconnect click on status button in the bottom left hand corner and select `Close Remote Connection`.
+
+## The Dockerfile
+
+Within out `hello-world` project file we are going tneed to create a file called `Dockerfile`. We are also going to create a file called  `.dockerignore`.
+
+Within the `.dockerignore` we are going to want to add the following:
+
+``` dockerfile
+**/bin/
+**/obj/
+```
+
+For the `Dockerfile` it should look something like this:
+
+``` dockerfile
+
+```
