@@ -91,16 +91,12 @@ dotnet new webapp -n hello-world
 We can work with in the devcontainer making code changes. But before we close out we are going to want to do a publish prior to closing the devcontainer:
 
 ``` bash
-dotnet publish -c Release
+dotnet publish -c Release -o out
 ```
-
-## Disconnecting from the devcontainer
-
-Disconnect click on status button in the bottom left hand corner and select `Close Remote Connection`.
 
 ## The Dockerfile
 
-Within out `hello-world` project file we are going tneed to create a file called `Dockerfile`. We are also going to create a file called  `.dockerignore`.
+Within out `hello-world` project file we are going toneed to create a file called `Dockerfile`. We are also going to create a file called  `.dockerignore`.
 
 Within the `.dockerignore` we are going to want to add the following:
 
@@ -112,5 +108,13 @@ Within the `.dockerignore` we are going to want to add the following:
 For the `Dockerfile` it should look something like this:
 
 ``` dockerfile
-
+FROM registry.suse.com/bci/dotnet-aspnet:7.0
+WORKDIR /publish
+COPY /publish .
+EXPOSE 80
+ENTRYPOINT [ "dotnet", "hello-world.dll" ]
 ```
+
+One of the big things you should notice is the fact we are using the __ASP.NET__ runtime and not the sdk as we did in the devcontainer.
+
+Now we can build our container

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUTLC0zBHj+g89HCbCSk+iMx7T792RP33GkHalrSfHl1j1Sx55wYmPXBqF26jy9QiRK47HfbxUrtE2wet+9OTg==",
+  "dgSpecHash": "CHHbTub8O21J3sXp19u/LmEPw2oiYBtM1CIxJGNdkNnHZ48UcBjWrCSmXVVchz0llK6wUMwjto47gp+VnxDFsA==",
   "success": true,
-  "projectFilePath": "/workspaces/sle-bci-demo/hello-world/hello-world.csproj",
+  "projectFilePath": "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/hello-world.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/sle-bci-demo/hello-world/hello-world.csproj": {}
+    "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/hello-world.csproj": {}
   },
   "projects": {
-    "/workspaces/sle-bci-demo/hello-world/hello-world.csproj": {
+    "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/hello-world.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/sle-bci-demo/hello-world/hello-world.csproj",
+        "projectUniqueName": "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/hello-world.csproj",
         "projectName": "hello-world",
-        "projectPath": "/workspaces/sle-bci-demo/hello-world/hello-world.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/workspaces/sle-bci-demo/hello-world/obj/",
+        "projectPath": "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/hello-world.csproj",
+        "packagesPath": "/Users/robertsirchia/.nuget/packages/",
+        "outputPath": "/Users/robertsirchia/Documents/GitHub/sle-bci-demo/hello-world/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/Users/robertsirchia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
